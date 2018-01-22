@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Logic\Markdown;
+namespace Nisbet\LaravelMarkdown;
 
 use Michelf\Markdown;
 use Michelf\MarkdownExtra;
 
-class MarkdownTransformer
+class LaravelMarkdownTransformer
 {
     public function __construct()
     {
